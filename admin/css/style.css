@@ -1,0 +1,76 @@
+  /* New smileys */
+.ratingg {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.ratingg .input-hidden {
+  position: absolute;
+  left: -9999px;
+  
+}
+
+/* .ratingg input[type=radio]:checked + label>img { */
+ /* filter: contrast(1.6); */
+/* } */
+
+
+
+/* .ratingg input[type=radio]:not(:checked) + label>img { */
+  /* -webkit-filter: opacity(.3);  */
+   /* filter: opacity(.3);  */
+ /* }  */
+
+ /* .ratingg input[type=radio]:not(:checked) + label>img:nth-of-type(3) { */
+  /* -webkit-filter: opacity(.2);  */
+   /* filter: opacity(.2);  */
+ /* } */
+ /* .ratingg input[type=radio]:not(:checked) + label>img:nth-of-type(4) { */
+  /* -webkit-filter: opacity(.2);  */
+   /* filter: opacity(.2);  */
+ /* } */
+/* .op{ */
+	/* -webkit-filter: opacity(.2);  */
+  /* filter: opacity(.2);  */
+/* } */
+
+/* Stuff after this is only to make things more pretty */
+.ratingg input[type=radio] + label>img {
+	
+ padding:10px;
+  width: 50px;
+  height: 50px;
+  transition: 500ms all;
+   display: block; 
+}
+
+
+
+
+.ratingg input[type=radio] + label>img:hover {
+ 
+ /* transform:  */
+    /* rotateZ(360deg) ; */
+}
+
+.ratingg input[type=radio]:checked + label>img {
+ filter:contrast(500%);
+  
+}
+.ratingg input[type=radio]:checked + label>img {
+ animation: enlarge 1s ease-in-out  forwards
+  
+}
+
+@keyframes enlarge {
+  from {
+    transform: scale(0.80);
+  }
+  
+  to {
+    transform: scale(1.25);
+	
+	
+}
+ }
